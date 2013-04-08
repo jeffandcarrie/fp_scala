@@ -12,7 +12,7 @@ object Main {
   }
 
   /**
-   * Exercise 1
+   * Exercise 1 (t)
    */
   def pascal(c: Int, r: Int): Int = {
     if (c == 0 || r == c) 1
