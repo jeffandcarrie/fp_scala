@@ -148,7 +148,6 @@ class FunSetSuite extends FunSuite {
       val s = union(s1, s2)
       val oneTwoThree = union(s,s3)
       
-      assert(exists(oneTwoThree, (x:Int) => (x ==4)), "Foobar")
       assert(exists(oneTwoThree, (x:Int) => (x ==3)))
     }
   }
